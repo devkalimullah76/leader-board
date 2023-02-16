@@ -1,0 +1,78 @@
+/* common style or utilities */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav, section{
+    width: 870px;
+    margin: 0 auto;
+}
+/* top header style */
+header{
+    background-color: #562EFF;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+nav .logo a{
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+nav .logo img{
+    width: 41px;
+    height: 51px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+nav ul li a{
+    font-size: 16px;
+    font-weight: 400;
+}
+/* top players and top blog styles */
+/* top players styles */
+.topPlayers{
+    padding: 25px;
+    border-radius: 5px;
+}
+.topPlayers{
+    background-color: #fff;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player h3{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* main area style */
+main{
+    padding: 20px 0;
+    background-color: #E5E5E5;
+}

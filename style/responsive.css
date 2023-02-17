@@ -1,0 +1,27 @@
+/* mobile devices */
+@media only screen and (max-width:668px) {
+    .container{
+        width: 100%;
+    }
+    /* top players css */
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player{
+        flex-direction: column;
+    }
+    .topPlayersTitle, .topBlogsTitle{
+        text-align: center;
+    }
+    /* top Blog css */
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog{
+        flex-direction: column;
+    }
+    .blog img{
+        width: 100%;
+        height: auto;
+    }
+}

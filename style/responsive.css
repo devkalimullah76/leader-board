@@ -1,0 +1,10 @@
+/* mobile device */
+@media only screen and (max-width:668px) {
+    section{
+        width: 100%;
+    }
+    .players{
+        background-color: red;
+        grid-template-columns: none;
+    }
+}

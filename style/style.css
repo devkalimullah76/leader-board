@@ -11,6 +11,10 @@ nav, section{
 section{
     background-color: #FFFFFF;
 }
+hr.hr{
+    width: 95%;
+    border-top: 1px solid rgb(246, 246, 246);
+}
 /* top header style */
 header{
     background-color: #562EFF;
@@ -63,6 +67,8 @@ h2.topPlayersTitle{
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 25px;
 }
 .player{
     display: flex;
@@ -86,7 +92,8 @@ main{
 .blogs{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap:20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
 .blog{
     display: flex;
